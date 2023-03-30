@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+  
+    text-align: center;
+    background:	#fcf9f9;
+}
+
+
+
+.typing-section{
+    text-align: center;
+}
+
+#textarea{
+    border:2px solid #050000;
+    border-radius: 6px;
+    
+    max-width: 50rem;
+    width: 50rem;
+    height: 20rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background: #d3e0e7;
+}
+
+#btn{
+    display: inline-block;
+    padding: 1rem 2.4rem;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+    background-color: #f21505;
+    color: #040404;
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+}
+#btn:hover{
+    background-color: #f21505;
+    box-shadow: 0 0 35px solid black;
+}
+h2{
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    color: #060606;
+    text-align: center;
+    font-weight: bold;
+}
+
+#showSentence, #score{
+    font-size: 15px;
+    margin: 2rem 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: rgb(5, 5, 10);
+   
+}
+.heading{
+    font:bold;
+    color: rgb(252, 248, 248);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    
+}
+nav{
+    height: 70px;
+    width: auto;
+    font-size: 40px;
+    color: rgb(4, 4, 4);
+    background-color:#74d6ea;
+}
+
+.main{
+text-align: center;
+padding-top: 85px;
+}
+
+#index{
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 5px;
+    text-align: center;
+    font: bold;
+    font-size: 18px;
+    background-color: cadetblue;
+    color: #050000;
+    
+}
+.center{
+padding-top: 200px;
+font-size: 30px;
+
+}
+#index:hover{
+    background: #2d004b;
+    color: #d3e0e7;
+    box-shadow: 0 0 35px rgb(245, 33, 10);
+}
+.text1{
+    text-align: center;
+    font: bold;
+    font-size: 17px;
+   float: left;
+   padding-left:20px;
+   text-align: left;
+   
+   border-radius: 10px;
+ 
+   font-family: serif;
+
+  
+}
+.text2{
+    text-align: center;
+    font: bold;
+  font-size: 20px;
+   float: right;
+   padding-right: 30px;
+  
+}
+
+
+#showSentence{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 10% ;
+    width: 80%;
+    text-align: center;
+    padding-left: 35px;
+
+
+}
+.show{
+    text-align: center;
+    padding-left: 20%;
+}
